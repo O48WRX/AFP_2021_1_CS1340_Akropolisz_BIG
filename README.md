@@ -1,0 +1,1 @@
+AFP_2021_1_CS1340_Akropolisz_BIG
