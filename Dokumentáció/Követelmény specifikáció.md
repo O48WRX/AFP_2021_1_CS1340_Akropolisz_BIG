@@ -2,15 +2,15 @@
 
 ## 1. Áttekintés
 
-## 1. Jelenlegi helyzet
+## 2. Jelenlegi helyzet
 
-## 2. Vágyálomrendszer
+## 3. Vágyálomrendszer
 
-## 3. Jelenlegi üzleti folyamatok modellje
+## 4. Jelenlegi üzleti folyamatok modellje
 
-## 4. Igényelt üzleti folyamatok modellje
+## 5. Igényelt üzleti folyamatok modellje
 
-## 5.Fogalomszótár
+## 6.Fogalomszótár
 
 ### 5.1.1 Blackjack (huszonegy)
 
