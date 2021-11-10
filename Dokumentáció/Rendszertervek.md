@@ -2,12 +2,11 @@
 
 ## 1. Rendszer célja
 
-## 2. Projekt terv
+## 2. Követelmények
+
+## 3. Projekt terv
 	
-## 3. Üzleti folyamatok modellje
-
-
-## 4. Követelmények
+## 4. Üzleti folyamatok modellje
 
 ## 5. Fizikai környezet
 
