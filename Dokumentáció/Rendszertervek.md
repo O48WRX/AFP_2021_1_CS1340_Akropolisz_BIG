@@ -1,17 +1,17 @@
 # ﻿Rendszerterv
 
-## 1.Rendszer célja
+## 1. Rendszer célja
 
-## 2.Projekt terv
+## 2. Projekt terv
 	
 ## 3. Üzleti folyamatok modellje
 
 
-## 4.Követelmények
+## 4. Követelmények
 
-## 5.Funkcionális terv
+## 5. Fizikai környezet
 
-## 6. Fizikai környezet
+## 6. Funkcionális terv
 
 ## 7. Archtitekturális terv
 
