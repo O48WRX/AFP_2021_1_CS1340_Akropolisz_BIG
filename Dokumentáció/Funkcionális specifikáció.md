@@ -2,9 +2,9 @@
 
 ## 1. Bevezetés
 Egy olyan Python+Kivy alkalmazást fejlesztünk, amely az egyik nagyon elterjedt vizuális média, a videó kollázs létrehozását teszi egyszerűvé.
-A szolgáltatást teljesen ingyen és regisztrációmentesen (ezáltal nem használunk fel semmilyen személyes adatot a felhasználótól.), viszont letöltést igényelve állítunk a felhasználó elé.
-A célunk a szolgáltatással, hogy megkönnyítsük az átlag ember számára egy videó kollázs létrehozását.
-Az alkalmazás a letöltés után bármikor elérhető, internetet nem igényel a teljes felhasználásához.
+A szolgáltatást teljesen ingyen és regisztrációmentesen (ezáltal nem használunk fel semmilyen személyes adatot a felhasználótól.), viszont letöltést igényelve állítjuk a felhasználó elé.
+A célunk a szolgáltatással, hogy megkönnyítsük az átlag ember számára egy videó kollázs létrehozását, egy egyszerűen kezelhető felülettel.
+Az alkalmazás a letöltés után bármikor elérhető, internetelérést nem igényel a teljes felhasználáshoz.
 
 ## 2. Jelenlegi helyzet
 
