@@ -37,7 +37,9 @@ A felhasználó az alábbi tevékenységeket végezheti:
 
 ### Kollázskészítés forgatókönyve
 Szereplők: az asztali alkalmazás
+
 Az alkalmazás elindításakor a program beolvassa, hogy hány videót kell megjeleníteni, és kialakítja azok elrendezését.
+
 A felhasználó által végezhető műveletek:
 - Késleltetés beállítása (egyenként)
 - Hang kiválasztása és hangerő beállítása
