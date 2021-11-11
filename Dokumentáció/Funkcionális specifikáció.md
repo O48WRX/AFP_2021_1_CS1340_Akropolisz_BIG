@@ -42,4 +42,5 @@ A felhasználó által végezhető műveletek:
 - Késleltetés beállítása (egyenként)
 - Hang kiválasztása és hangerő beállítása
 - Leírás elkészítése
+
 Amennyiben a felhasználó végzett a lejátszásokkal, egy gombbal ki tud lépni a programból
