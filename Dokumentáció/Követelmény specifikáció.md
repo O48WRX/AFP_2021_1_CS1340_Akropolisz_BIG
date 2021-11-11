@@ -13,13 +13,14 @@ Manapság a videókollázsok felléptek népszerűségben, azonban ezek létreho
 Csoportunk célja, hogy létrehozzunk egy olyan szolgáltatást a videókollázsok létrehozásához, amely a felhasználók számára a legkényelmesebb, legkönnyebb kezelhetőséget nyújt. A vágyálomrendszerünk az, hogy a programunk rendelkezik egy menüvel, amiben esélye a van a felhasználónak létrehozni egy saját videókollázst, tallózva a használni kívánt videóit, illetve címet adni a kollázsnak, ezenkívül megnézni egy 'Demo' funkcióval, hogy, hogyan néz ki a program végterméke, valamint egy 'Segítség/Súgó' funkcióval, ami a felhasználó számára segítséget nyújt a program használatához és egy kilépés gomb ami bezárja az applikációt.
 
 
-## 4. Jelenlegi üzleti folyamatok modellje
-Mostanság egyedül a videószerkesztő szoftverekkel lehet videókollázst létrehozni, de ezek használata általában többet igényel mint egy szimpla súgót, sőt teljes szakmák és egyetemi kurzusok alakultak ki körülöttük, pl.: Adobe Premier, Adobe After Effects, Sony Vegas stb. Az előbb felsorolt programok nagyrésze és hasznos funkciókkal rendelkező disztribúciói havi prémiumot vagy egyszeri megvásárlást igényeltek, felhasználók adatainak tárolása mellett és felhasználói felületeik nehezen kezelhetőek.
-Az előbb felsoroltak miatt nagyon sok ember videó és videókollázs készítási inspirációi alacsonyröptűek lesznek.
-
 ## 4. Funkcionális követelmények
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+
+
+## 4. Jelenlegi üzleti folyamatok modellje
+Mostanság egyedül a videószerkesztő szoftverekkel lehet videókollázst létrehozni, de ezek használata általában többet igényel mint egy szimpla súgót, sőt teljes szakmák és egyetemi kurzusok alakultak ki körülöttük, pl.: Adobe Premier, Adobe After Effects, Sony Vegas stb. Az előbb felsorolt programok nagyrésze és hasznos funkciókkal rendelkező disztribúciói havi prémiumot vagy egyszeri megvásárlást igényeltek, felhasználók adatainak tárolása mellett és felhasználói felületeik nehezen kezelhetőek.
+Az előbb felsoroltak miatt nagyon sok ember videó és videókollázs készítási inspirációi alacsonyröptűek lesznek.
 
 ## 5. Igényelt üzleti folyamatok modellje
 Projektünkkel igyekszünk, egy letisztult, könnyen kezelhető asztali szoftvert nyújtani a felhasználók számára. A szolgáltatásunk nem igényel regisztrációt, sem financiális beruházást további használat után sem. Az applikáció egy jól megszokott menürendszer alapján működik, amiben el lehet érni az alkalmazás különböző funkcióit, pl.: Saját Kollázs, Demo Kollázs, Súgó/segítség, Kilépés.
