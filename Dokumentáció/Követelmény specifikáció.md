@@ -19,6 +19,8 @@ Az előbb felsoroltak miatt nagyon sok ember videó és videókollázs készít�
 
 ## 4. Funkcionális követelmények
 
+## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+
 ## 5. Igényelt üzleti folyamatok modellje
 Projektünkkel igyekszünk, egy letisztult, könnyen kezelhető asztali szoftvert nyújtani a felhasználók számára. A szolgáltatásunk nem igényel regisztrációt, sem financiális beruházást további használat után sem. Az applikáció egy jól megszokott menürendszer alapján működik, amiben el lehet érni az alkalmazás különböző funkcióit, pl.: Saját Kollázs, Demo Kollázs, Súgó/segítség, Kilépés.
 Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismerettel szeretnénk kitűnni a versenytársaink közül, többek között azzal is, hogy tudjuk mennyire fontos a magánszemélyek számára az adataiknak a védelme, így mi nem is kérünk el semmilyen adatot a felhasználóinktól. A szolgáltatásunk internetet sem igényel, mivel nem kommunikál semmilyen szerverrel, hanem helyben a számítógépen fut, és ebből következően offline is használható.
