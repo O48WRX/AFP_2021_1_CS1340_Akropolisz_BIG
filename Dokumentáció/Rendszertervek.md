@@ -2,17 +2,21 @@
 
 ## 1. Rendszer célja
 
+A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vissza.
+
 ## 2. Követelmények
 
 ## 3. Projekt terv
 	
 ## 4. Üzleti folyamatok modellje
 
+TODO
+
 ## 5. Fizikai környezet
 
 ## 6. Funkcionális terv
 
-## 7. Archtitekturális terv
+## 7. Architekturális terv
 
 ## 8. Tesztterv
 
