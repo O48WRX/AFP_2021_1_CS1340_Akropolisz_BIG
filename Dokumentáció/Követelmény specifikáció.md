@@ -23,6 +23,12 @@ Egyéb követelményekről (2021.11.11) nem beszélhetünk.
 
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+A projekt egy szimpla szoftveres alkalmazásnak felel meg, ami egyetemi hallgatói licensszel készül egyetemi kurzusra így sem legálisan, sem morálisan nem lenne megfelelő a csapat részéről, ha nem ingyenesen és open-source fejlesztésben végeznénk. Lényegében egy videószerkesztő/kollázskészítő program.
+
+- A projekt hallgatói licenszen készül, egyetemi kurzusra.
+- Teljesen ingyenes.
+- Open-source
+- Videószerkesztő/kollázskészítő program.
 
 
 ## 6. Jelenlegi üzleti folyamatok modellje
