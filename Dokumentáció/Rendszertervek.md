@@ -12,7 +12,8 @@ A feladat célja, hogy egy letisztult, könnyen kezelhető, igényes alkalmazás
 
 ## 4. Üzleti folyamatok modellje
 
-TODO
+![ÜzletiFolyamatok](https://user-images.githubusercontent.com/82958011/141307230-9507f4b8-3976-4adc-9f6e-af649e7c0579.png)
+
 
 ## 5. Fizikai környezet
 
