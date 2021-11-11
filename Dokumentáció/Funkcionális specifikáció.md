@@ -22,6 +22,14 @@ A mai világban a legtöbb embernek nincs elegendő ideje ahhoz, hogy egy nagyob
 Ezt a programot azért hozzuk létre, hogy a (videokollázsokat szerető) emberek a szabad időjükben tudjanak ilyeneket készíteni költségvetés, regisztráció és személyi adatok kiadása nélkül. A projektünk mappákkal lesz kapcsolatban, melyek lokális módon lesznek majd elérhetőek, az adott számítógépen. A regisztrációmentes előnynek köszönhetően, percek alatt már a programfelületet logikusan tudjuk kezelni, a mappák neve, a program kialakítása és kezelőfelülete nem igényel különösebb hozzáértést az alkalmi felhasználóktól.
 
 ## 7. Használati esetek
+A Játékos az alábbi tevékenységeket végezheti:
+- A kiválasztott videók lejátszása
+- A videók elrendezésének beállítása
+- A videók elindítási késleltetésének beállítása
+- Annak beállítása, hogy melyik videó hangja kerüljön lejátszásra
+- A hangerő változtatása programon belül
+- A kollázs címének megadása
+- A cím/leírás betűtípusának beállítása
 
 ## 8. Képernyőtervek
 
