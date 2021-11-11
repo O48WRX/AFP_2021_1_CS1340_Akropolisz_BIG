@@ -43,10 +43,10 @@ Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismerettel sz
 
 ## 6.Fogalomszótár
 
-### 5.1.1 Blackjack (huszonegy)
+### 6.1.1 Blackjack (huszonegy)
 
-### 5.1.2 Általános játékszabály
+### 6.1.2 Általános játékszabály
 
-### 5.1.3 A játék végeredménye
+### 6.1.3 A játék végeredménye
 
-### 5.1.2 Kifejezések:
+### 6.1.2 Kifejezések:
