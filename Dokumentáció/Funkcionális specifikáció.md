@@ -13,6 +13,7 @@ A megrendelő egy egyszerű videólejátszó programot szeretne, amely egyszerre
 A csoport célja egy szinkronizált videólejátszó programot létrehozni, amelynek felületén állítható az egyes videók indításának késleltetése. Az egyes videók alatt elérhető lesz még annak is a lehetősége, hogy kiválasszuk, hogy a kiválasztottak közül melyik videó hangja kerüljön lejátszásra. A kollázs elkészítése előtt lehetőség lesz még egy címet/leírást adni a videócsoportnak, tetszőlegesen változtatható betűtípussal. A célunk a lehető legkevesebb kezelhető felülettel egy széleskörűen alkalmazható videószerkesztő program létrehozása.
 
 ## 4. Feltételek
+Az alkalmazásunk létrehozásának alapfeltétele, hogy Python programozási nyelven, illetve annak valamilyen keretrendszerében készítsük a programot és a kezelőfelületét (a választásunk a Kivy-re és a PyCharm-ra esett könnyű kezelhetőségük miatt), valamint egy vagy több külső mappa, amelyben tároljuk a lejátszásra kerülő videókat.
 
 ## 5. Jelenlegi üzleti folyamatok modellje
 
