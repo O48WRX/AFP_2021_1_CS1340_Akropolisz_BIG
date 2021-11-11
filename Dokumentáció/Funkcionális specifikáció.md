@@ -19,6 +19,7 @@ Az alkalmazásunk létrehozásának alapfeltétele, hogy Python programozási ny
 A mai világban a legtöbb embernek nincs elegendő ideje ahhoz, hogy egy nagyobb videószerkesztő programot megtanuljon helyesen kezelni, anélkül hogy ki kellene mozdulnia az illető komfortzónájából, bár van egy csomó online felületen elérhető platform, ezeknek a legfőbb hátránya a bonyolult regisztráció és a túlkomplikált kezelőfelület, valamint kötelező internetelérés. Mindezek tekintetében arra jutottunk, hogy egy ingyenes, regisztrációmentes, könnyen kezelhető videókollázs programot hozunk létre, amely egyszerű kezelőfelülettel rendelkezik, mégis minőségi kombinációkat lehet benne létrehozni. 
 
 ## 6. Igényelt üzleti folyamatok modellje
+Ezt a programot azért hozzuk létre, hogy a (videokollázsokat szerető) emberek a szabad időjükben tudjanak ilyeneket készíteni költségvetés, regisztráció és személyi adatok kiadása nélkül. A projektünk mappákkal lesz kapcsolatban, melyek lokális módon lesznek majd elérhetőek, az adott számítógépen. A regisztrációmentes előnynek köszönhetően, percek alatt már a programfelületet logikusan tudjuk kezelni, a mappák neve, a program kialakítása és kezelőfelülete nem igényel különösebb hozzáértést az alkalmi felhasználóktól.
 
 ## 7. Használati esetek
 
