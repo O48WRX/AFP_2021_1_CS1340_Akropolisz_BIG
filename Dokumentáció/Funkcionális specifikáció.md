@@ -32,6 +32,7 @@ A felhasználó az alábbi tevékenységeket végezheti:
 - A cím/leírás betűtípusának beállítása
 
 ## 8. Képernyőtervek
+![Képernyőterv (1)](https://user-images.githubusercontent.com/82958011/141331983-96adbfda-deb8-4709-9854-2a28dc4968b3.png)
 
 ## 9. Forgatókönyvek
 
