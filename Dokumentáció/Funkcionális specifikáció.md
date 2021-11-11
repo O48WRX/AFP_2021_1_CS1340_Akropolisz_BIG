@@ -7,6 +7,7 @@ A célunk a szolgáltatással, hogy megkönnyítsük az átlag ember számára e
 Az alkalmazás a letöltés után bármikor elérhető, internetelérést nem igényel a teljes felhasználáshoz.
 
 ## 2. Jelenlegi helyzet
+A megrendelő egy egyszerű videólejátszó programot szeretne, amely egyszerre több videófájlt játszik le, állítható késleltetéssel. Az említett alkalmazást a megrendelő asztali alkalmazás formájában szeretné használni, bármilyen külső kapcsolat nélkül. Az ügyfél ragaszkodott egy egyszerű, kevés beletanulást igénylő felülethez, ami azoknak is könnyűvé teszi a kollázs elkészítését, aki semmilyen videókészítő tapasztalattal nem rendelkezik. Az ügyfél ragaszkodott még ahhoz is, hogy az oldal közepén legyen egy szerkeszthető leírás, valamint a videók elrendezése a videók számától függően változzon. Jelenleg a program létrehozásához, elkészítéséhez szükséges adatokat, tevékenységeket discord segítségével, minden héten, hetente többször is egyeztetjük.
 
 ## 3. Vágyálom rendszer
 
