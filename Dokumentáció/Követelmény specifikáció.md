@@ -14,6 +14,7 @@ Csoportunk célja, hogy létrehozzunk egy olyan szolgáltatást a videókollázs
 
 
 ## 4. Funkcionális követelmények
+A projekt egy asztali alkalmazás, amihez Python-Kivy-t használunk, így funkcionális követelménynek mondható, hogy a felhasználó számítógépe képes legyen python állományokat futtatni. Nem igényel internetet, így offline is bármikor használható.
 
 ## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
 
