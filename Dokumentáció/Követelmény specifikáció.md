@@ -43,7 +43,9 @@ Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismerettel sz
 
 ## 6.Fogalomszótár
 
-### 6.1.1 Blackjack (huszonegy)
+### 6.1.1 TL;DR
+'Too long, didn't read', fordítva: Túl hosszú, nem olvastam.
+Mivel hosszú leírást adtunk néhány helyen, így szükségesnek éreztük, egy lista bevezetésére, amivel gyorsabban átláthatóvá tesszük a szöveget, vázlatolva.
 
 ### 6.1.2 Általános játékszabály
 
