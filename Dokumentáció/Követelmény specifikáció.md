@@ -14,6 +14,8 @@ Csoportunk célja, hogy létrehozzunk egy olyan szolgáltatást a videókollázs
 
 
 ## 4. Jelenlegi üzleti folyamatok modellje
+Mostanság egyedül a videószerkesztő szoftverekkel lehet videókollázst létrehozni, de ezek használata általában többet igényel mint egy szimpla súgót, sőt teljes szakmák és egyetemi kurzusok alakultak ki körülöttük, pl.: Adobe Premier, Adobe After Effects, Sony Vegas stb. Az előbb felsorolt programok nagyrésze és hasznos funkciókkal rendelkező disztribúciói havi prémiumot vagy egyszeri megvásárlást igényeltek, felhasználók adatainak tárolása mellett és felhasználói felületeik nehezen kezelhetőek.
+Az előbb felsoroltak miatt nagyon sok ember videó és videókollázs készítási inspirációi alacsonyröptűek lesznek.
 
 ## 5. Igényelt üzleti folyamatok modellje
 
