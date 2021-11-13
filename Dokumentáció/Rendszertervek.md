@@ -44,6 +44,8 @@ A fejlesztés során szükséges a folytonos tesztelés. Ellenőrizni kell a gom
 
 ## 9. Telepítési terv
 
+Az alkalmazás nem igényel telepítést, a .exe állomány futtatásával indítható.
+
 ## 10. Karbantartási terv
 
 ## 11. Implementációs terv
