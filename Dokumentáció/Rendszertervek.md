@@ -26,6 +26,10 @@ A projekt elkülönül dizájn és logika részekre. Ezen részeken más-más em
 
 ## 5. Fizikai környezet
 
+A rendszer fejlesztése python és kivy segítségével történik. 
+Minimális gépigényre van szükség a program futtatásához.
+Bármilyen operációs rendszeren futtatható.
+
 ## 6. Funkcionális terv
 
 Rendszerszereplő: - Felhasználó: A programnak nincs más szereplője, csak az alkalmazás felhasználója, aki kiválasztja a videót, amit meg akar nézni.
