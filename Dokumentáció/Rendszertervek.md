@@ -40,6 +40,8 @@ A rendszerhez mindösze egy Python nyelv futtatására alkalmas alkalmazásra va
 
 ## 8. Tesztterv
 
+A fejlesztés során szükséges a folytonos tesztelés. Ellenőrizni kell a gombok működését, a videók tallózását valamint a kollázs készítését. TODO: Tesztek
+
 ## 9. Telepítési terv
 
 ## 10. Karbantartási terv
