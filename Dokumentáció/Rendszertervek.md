@@ -48,6 +48,8 @@ Az alkalmazás nem igényel telepítést, a .exe állomány futtatásával indí
 
 ## 10. Karbantartási terv
 
+Az alkalmazás bővítése tervbe van. Négynél több videóból álló kollázsok készítése a későbbiekben.
+
 ## 11. Implementációs terv
 
 A program Pyton és Kivy nyelven valósul meg.
