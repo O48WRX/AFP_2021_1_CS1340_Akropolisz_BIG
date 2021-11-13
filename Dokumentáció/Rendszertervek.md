@@ -52,4 +52,4 @@ Az alkalmazás bővítése tervbe van. Négynél több videóból álló kolláz
 
 ## 11. Implementációs terv
 
-A program Pyton és Kivy nyelven valósul meg.
+A program Python és Kivy nyelven valósul meg a felhasználóbarát dizájn és logika elkészítése érdekében. 
