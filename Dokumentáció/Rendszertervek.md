@@ -6,6 +6,11 @@ A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vis
 
 ## 2. Követelmények
 
+        - A fejlsztés Python illetve kivy segítségével történik
+        - Az alkalmazás kompatibilis szinte minden operációs rendszerrel
+        - Az alkalmazás minimális gépigénnyel rendelkezik
+        - Gyors, hatékony működés
+
 ## 3. Projekt terv
 
 A feladat célja, hogy egy letisztult, könnyen kezelhető, igényes alkalmazást nyújtson a felhasználó számára.
