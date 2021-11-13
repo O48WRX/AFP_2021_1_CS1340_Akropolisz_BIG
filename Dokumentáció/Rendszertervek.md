@@ -13,7 +13,11 @@ A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vis
 
 ## 3. Projekt terv
 
-A feladat célja, hogy egy letisztult, könnyen kezelhető, igényes alkalmazást nyújtson a felhasználó számára.
+A projekt elkülönül dizájn és logika részekre. Ezen részeken más-más emberek dolgoznak:
+        -Dizájn: Egyszerű, felhasználóbarát felület
+                - Felelősök: TODO
+        -Logika: Hatékony, gyorsan működő program megvalósítása
+                - Felelősök: TODO
 
 ## 4. Üzleti folyamatok modellje
 
