@@ -47,7 +47,7 @@ Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismerettel sz
 'Too long, didn't read', fordítva: Túl hosszú, nem olvastam.
 Mivel hosszú leírást adtunk néhány helyen, így szükségesnek éreztük, egy lista bevezetésére, amivel gyorsabban átláthatóvá tesszük a szöveget, vázlatolva.
 
-### 6.1.2 
+### 6.1.2 Demo
 
 ### 6.1.3 A játék végeredménye
 
