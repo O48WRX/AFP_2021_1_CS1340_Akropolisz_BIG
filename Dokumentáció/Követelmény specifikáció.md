@@ -50,6 +50,6 @@ Mivel hosszú leírást adtunk néhány helyen, így szükségesnek éreztük, e
 ### 6.1.2 Demo
 Ebben az esetben a programunk, egy előre elkészített sikeres működésének bemutatása a felhasználó számára.
 
-### 6.1.3 A játék végeredménye
+### 6.1.3 
 
 ### 6.1.2 Kifejezések:
