@@ -2,7 +2,7 @@
 
 ## 1. Rendszer célja
 
-A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vissza. A program minimalista felülettel fog rendelkezni a könnyen kezelhetőség érdekében. A felhasználó 2-4 videóból készíthet egy kollázst. A célja a programnak hogy a videókból összeállított kollázst ugyanakkor játsza le mintha egy folytonos videó lenne. A program használata során a felhasználónak ki kell tallóznia a videókat amikből a kollázst szeretné létrehozni, ezen kívűl más bevitelt nem vár a program. Az alkalmazás python és kivy nyelven valósul meg ezért a legtöbb rendszerrel kompatibilis lesz.
+A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vissza. A program minimalista felülettel fog rendelkezni a könnyen kezelhetőség érdekében. A felhasználó 2-4 videóból készíthet egy kollázst. A célja a programnak, hogy a videókból összeállított kollázst ugyanakkor játsza le, mintha egy folytonos videó lenne. A program használata során a felhasználónak ki kell tallóznia a videókat, amikből a kollázst szeretné létrehozni, ezen kívűl más bevitelt nem vár a program. Az alkalmazás python és kivy nyelven valósul meg, ezért a legtöbb rendszerrel kompatibilis lesz.
 
 ## 2. Követelmények
 
