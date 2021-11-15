@@ -20,7 +20,8 @@ A projekt elkülönül dizájn és logika részekre. Ezen részeken más-más em
         -Dizájn: Egyszerű, felhasználóbarát felület
                 -Felelősök: TODO
         -Logika: Hatékony, gyorsan működő program megvalósítása
-                -Felelősök: TODO
+                -Felelősök: Kardos Zsolt (O48WRX), 
+                TODO
 
 ## 4. Üzleti folyamatok modellje
 
