@@ -10,6 +10,8 @@ A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vis
         - Az alkalmazás kompatibilis szinte minden operációs rendszerrel
         - Az alkalmazás minimális gépigénnyel rendelkezik
         - Gyors, hatékony működés
+        
+        //Zsolti: FIX: A program csak azokkal az operációs rendszerekkel lesz kompatibilis, amelyek képesek Python-t futtatni.
 
 ## 3. Projekt terv
 
