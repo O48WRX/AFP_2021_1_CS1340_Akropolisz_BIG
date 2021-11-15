@@ -57,4 +57,4 @@ Olyan kód/alkalmazás, ami bármikor publikusan elérhető, bárki láthatja, m
 A Python egy multi-paradigmás programozási nyelv.
 
 ### 6.1.5 Kivy
-
+A Kivy egy open-source Python keretrendszer mobilos és egyéb applikációk fejlesztésére.
