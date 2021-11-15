@@ -54,3 +54,4 @@ Ebben az esetben a programunk, egy előre elkészített sikeres működésének 
 Olyan kód/alkalmazás, ami bármikor publikusan elérhető, bárki láthatja, módosíthatja és megoszthatja, amikor akarja.
 
 ### 6.1.4 Python
+A Python egy multi-paradigmás programozási nyelv.
