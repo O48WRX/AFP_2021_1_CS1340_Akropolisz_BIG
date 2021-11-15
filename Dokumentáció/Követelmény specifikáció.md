@@ -55,3 +55,6 @@ Olyan kód/alkalmazás, ami bármikor publikusan elérhető, bárki láthatja, m
 
 ### 6.1.4 Python
 A Python egy multi-paradigmás programozási nyelv.
+
+### 6.1.5
+
