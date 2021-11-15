@@ -53,4 +53,4 @@ Ebben az esetben a programunk, egy előre elkészített sikeres működésének 
 ### 6.1.3 open-source
 Olyan kód/alkalmazás, ami bármikor publikusan elérhető, bárki láthatja, módosíthatja és megoszthatja, amikor akarja.
 
-### 6.1.2 Kifejezések:
+### 6.1.2
