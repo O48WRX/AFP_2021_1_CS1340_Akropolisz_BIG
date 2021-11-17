@@ -2,8 +2,8 @@
 
 ## 1. Áttekintés
 A projektünk egy Python Video Creator,
-ezt azt takarja, hogy egy címmel ellátott szinkronizált videó kollázst hozunk létre.
-A megvalósításához Python + Kivy-t fogunk használni.
+ami lehetővé teszi, hogy egy címmel ellátott, szinkronizált videó kollázst hozzunk létre.
+A megvalósításához Python + Kivy kombinációt fogunk használni.
 A szolgáltatás teljesen ingyenes és minimalista felülettel rendelkezik átláthatóság miatt.
 
 ## 2. Jelenlegi helyzet
