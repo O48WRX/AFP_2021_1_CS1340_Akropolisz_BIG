@@ -41,20 +41,20 @@ Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismereti igé
 
 ![Igényelt üzleti folyamatok](https://user-images.githubusercontent.com/82958011/141682268-23bf3298-7ac4-4085-a341-8a482c8d05f5.png)
 
-## 6.Fogalomszótár
+## 8.Fogalomszótár
 
-### 6.1.1 TL;DR
+### 8.1.1 TL;DR
 'Too long, didn't read', fordítva: Túl hosszú, nem olvastam.
 Mivel hosszú leírást adtunk néhány helyen, így szükségesnek éreztük, egy lista bevezetésére, amivel gyorsabban átláthatóvá tesszük a szöveget, vázlatolva.
 
-### 6.1.2 Demo
+### 8.1.2 Demo
 Ebben az esetben a programunk, egy előre elkészített sikeres működésének bemutatása a felhasználó számára.
 
-### 6.1.3 open-source
+### 8.1.3 open-source
 Olyan kód/alkalmazás, ami bármikor publikusan elérhető, bárki láthatja, módosíthatja és megoszthatja, amikor akarja.
 
-### 6.1.4 Python
+### 8.1.4 Python
 A Python egy multi-paradigmás programozási nyelv.
 
-### 6.1.5 Kivy
+### 8.1.5 Kivy
 A Kivy egy open-source Python keretrendszer mobilos és egyéb applikációk fejlesztésére.
