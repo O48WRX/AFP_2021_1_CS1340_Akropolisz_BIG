@@ -48,13 +48,13 @@ Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismereti igé
 Mivel hosszú leírást adtunk néhány helyen, így szükségesnek éreztük, egy lista bevezetésére, amivel gyorsabban átláthatóvá tesszük a szöveget, vázlatolva.
 
 ### 8.1.2 Demo
-Ebben az esetben a programunk, egy előre elkészített sikeres működésének bemutatása a felhasználó számára.
+Ebben az esetben a programunk, egy előre elkészített sikeres működésének bemutatása a felhasználó számára (a demonstráció szóból).
 
-### 8.1.3 open-source
+### 8.1.3 Open-source
 Olyan kód/alkalmazás, ami bármikor publikusan elérhető, bárki láthatja, módosíthatja és megoszthatja, amikor akarja.
 
 ### 8.1.4 Python
 A Python egy multi-paradigmás programozási nyelv.
 
 ### 8.1.5 Kivy
-A Kivy egy open-source Python keretrendszer mobilos és egyéb applikációk fejlesztésére.
+A Kivy egy open-source Python keretrendszer, mobilos és egyéb applikációk fejlesztésére alkalmas.
