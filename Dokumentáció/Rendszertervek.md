@@ -16,8 +16,7 @@ A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vis
 A projekt elkülönül dizájn és logika részekre. Ezen részeken más-más emberek dolgoznak:
 
         -Dizájn: Egyszerű, felhasználóbarát felület
-                -Felelősök: Riczkó Henrik (D5GPJ6),
-                TODO
+                -Felelősök: Riczkó Henrik (D5GPJ6), Hadobás Dávid (TB3376)
         -Logika: Hatékony, gyorsan működő program megvalósítása
                 -Felelősök: Kardos Zsolt (O48WRX), 
                 TODO
