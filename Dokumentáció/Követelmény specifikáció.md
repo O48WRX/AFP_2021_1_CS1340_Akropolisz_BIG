@@ -36,8 +36,8 @@ Mostanság egyedül a videószerkesztő szoftverekkel lehet videókollázst lét
 Az előbb felsoroltak miatt nagyon sok ember videó- és videókollázs-készítési inspirációi alacsonyröptűekké váltak.
 
 ## 7. Igényelt üzleti folyamatok modellje
-Projektünkkel igyekszünk, egy letisztult, könnyen kezelhető asztali szoftvert nyújtani a felhasználók számára. A szolgáltatásunk nem igényel regisztrációt, sem financiális beruházást további használat után sem. Az applikáció egy jól megszokott menürendszer alapján működik, amiben el lehet érni az alkalmazás különböző funkcióit, pl.: Saját Kollázs, Demo Kollázs, Súgó/segítség, Kilépés.
-Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismerettel szeretnénk kitűnni a versenytársaink közül, többek között azzal is, hogy tudjuk mennyire fontos a magánszemélyek számára az adataiknak a védelme, így mi nem is kérünk el semmilyen adatot a felhasználóinktól. A szolgáltatásunk internetet sem igényel, mivel nem kommunikál semmilyen szerverrel, hanem helyben a számítógépen fut, és ebből következően offline is használható.
+Projektünkkel igyekszünk egy letisztult, könnyen kezelhető asztali szoftvert nyújtani a felhasználók számára. A szolgáltatásunk nem igényel regisztrációt, sem financiális beruházást további használat után sem. Az applikáció egy jól megszokott, valamint új felhasználók számára könnyen értelmezhető menürendszer alapján működik, amiben el lehet érni az alkalmazás különböző funkcióit, pl.: Saját Kollázs, Demo Kollázs, Súgó/segítség, Kilépés.
+Az alkalmazásunk könnyű kezelhetőségével, minimális szoftverismereti igényével szeretnénk kitűnni a versenytársaink közül, többek között azzal is, hogy tudjuk mennyire fontos a magánszemélyek számára az adataik védelme, így mi nem is kérünk semmilyen adatot a felhasználóinktól. A szolgáltatásunk internetet sem igényel, mivel nem kommunikál semmilyen szerverrel, hanem "helyben", a számítógépen fut, és ebből következően offline is használható.
 
 ![Igényelt üzleti folyamatok](https://user-images.githubusercontent.com/82958011/141682268-23bf3298-7ac4-4085-a341-8a482c8d05f5.png)
 
