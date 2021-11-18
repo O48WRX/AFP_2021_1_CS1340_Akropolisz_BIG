@@ -6,14 +6,14 @@ A rendszer célja, hogy egy videó lejátszására alkalmas felületet adjon vis
 
 ## 2. Követelmények
 
-        - A fejlsztés Python illetve kivy segítségével történik
+        - A fejlesztés Python illetve kivy segítségével történik
         - Az alkalmazás kompatibilis minden operációs rendszerrel ami képes Pythont futtatni
         - Az alkalmazás minimális gépigénnyel rendelkezik
         - Gyors, hatékony működés
  
 ## 3. Projekt terv
 
-A projekt elkülönül dizájn és logika részekre. Ezen részeken más-más emberek dolgoznak:
+A projekt elkülönül dizájn és logika részekre. Ezeken a részeken más-más emberek dolgoznak:
 
         -Dizájn: Egyszerű, felhasználóbarát felület
                 -Felelősök: Riczkó Henrik (D5GPJ6), Hadobás Dávid (TB3376)
