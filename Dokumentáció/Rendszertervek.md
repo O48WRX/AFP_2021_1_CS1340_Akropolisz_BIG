@@ -18,7 +18,7 @@ A projekt elkülönül dizájn és logika részekre. Ezen részeken más-más em
         -Dizájn: Egyszerű, felhasználóbarát felület
                 -Felelősök: Riczkó Henrik (D5GPJ6), Hadobás Dávid (TB3376)
         -Logika: Hatékony, gyorsan működő program megvalósítása
-                -Felelősök: Kardos Zsolt (O48WRX), 
+                -Felelősök: Kardos Zsolt (O48WRX), Balogh Mihály Viktor (GUFVXA)
                 TODO
 
 ## 4. Üzleti folyamatok modellje
