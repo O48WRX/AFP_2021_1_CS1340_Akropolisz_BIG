@@ -38,7 +38,7 @@ Rendszerszereplő: - Felhasználó: A programnak nincs más szereplője, csak az
 
 ## 7. Architekturális terv
 
-A rendszerhez mindössze egy a .exe állomány futtatására van szükség, nem igényel egyéb futtatáshoz szükséges követelményeket. 
+A rendszerhez mindössze egy .exe állomány futtatására van szükség, nem igényel egyéb futtatáshoz szükséges követelményeket. 
 
 ## 8. Tesztterv
 
