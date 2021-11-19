@@ -1,0 +1,25 @@
+[INFO   ] Logger: Record log in C:\Users\RIKI\Desktop\AFP\AFP_2021_1_CS1340_Akropolisz_BIG\Kód\Python/conf\logs\kivy_21-11-19_1.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "C:\Users\RIKI\AppData\Local\Programs\Python\Python39\lib\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Users\RIKI\AppData\Local\Programs\Python\Python39\python.exe"
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL" graphics system
+[INFO   ] GL: GLEW initialization succeeded
+[INFO   ] GL: Backend used <glew>
+[INFO   ] GL: OpenGL version <b'4.5.0 NVIDIA 376.99'>
+[INFO   ] GL: OpenGL vendor <b'NVIDIA Corporation'>
+[INFO   ] GL: OpenGL renderer <b'Quadro 3000M/PCIe/SSE2'>
+[INFO   ] GL: OpenGL parsed version: 4, 5
+[INFO   ] GL: Shading version <b'4.50 NVIDIA'>
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <32>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Base: Start application main loop
+[INFO   ] Base: Leaving application in progress...
