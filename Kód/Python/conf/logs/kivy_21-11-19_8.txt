@@ -1,0 +1,16 @@
+[INFO   ] Logger: Record log in C:\Users\RIKI\Desktop\AFP\AFP_2021_1_CS1340_Akropolisz_BIG\Kód\Python/conf\logs\kivy_21-11-19_8.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] Kivy: v2.0.0
+[INFO   ] Kivy: Installed at "C:\Users\RIKI\AppData\Local\Programs\Python\Python39\lib\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Users\RIKI\AppData\Local\Programs\Python\Python39\python.exe"
+[INFO   ] Factory: 186 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "C:\Users\RIKI\Desktop\AFP\AFP_2021_1_CS1340_Akropolisz_BIG\Kód\Python\video.py", line 27, in <module>
+[WARNING] stderr:     Builder.load_file("kv-files/simple_app.kv")
+[WARNING] stderr:   File "C:\Users\RIKI\AppData\Local\Programs\Python\Python39\lib\site-packages\kivy\lang\builder.py", line 304, in load_file
+[WARNING] stderr:     with open(filename, 'r', encoding=encoding) as fd:
+[WARNING] stderr: FileNotFoundError: [Errno 2] No such file or directory: 'kv-files/simple_app.kv'
