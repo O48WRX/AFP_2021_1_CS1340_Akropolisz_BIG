@@ -2,7 +2,7 @@ from kivy.lang import Builder
 from kivy.uix.floatlayout import FloatLayout
 from kivy.app import App
 
-#Builder.load_file("KV_Files/DemoMenu.kv")
+Builder.load_file("KV_Files/UserCreate.kv")
 
 
 class MainWindow(FloatLayout):
