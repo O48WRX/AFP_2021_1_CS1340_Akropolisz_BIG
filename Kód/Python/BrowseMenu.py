@@ -21,6 +21,8 @@ class MainMenu(Screen):
 class CreateCollage(Screen):
     pass
 
+# Demo screen létrehozása
+
 
 class Demo(Screen):
     pass
