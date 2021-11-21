@@ -27,10 +27,11 @@ class CreateCollage(Screen):
 class Demo(Screen):
     pass
 
+# Help screen létrehozása
+
 
 class Help(Screen):
     pass
-
 
 # Screen manager deklarálása
 
