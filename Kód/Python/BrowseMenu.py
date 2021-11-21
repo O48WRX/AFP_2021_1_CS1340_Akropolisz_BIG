@@ -28,6 +28,10 @@ class Demo(Screen):
     pass
 
 
+class Help(Screen):
+    pass
+
+
 # Screen manager deklarálása
 
 
