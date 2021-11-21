@@ -1,0 +1,18 @@
+<MainMenu>:
+    BoxLayout:
+        orientation:"vertical"
+        padding:200
+        spacing:20
+        Label:
+            font_size:40
+            bold:True
+            text:"Video Creator"
+            pos_hint:{'center_x': .5, 'center_y': .5}
+        Button:
+            text:"Make a Collage"
+            size:(100, 150)
+            pos_hint:{'center_x': .5, 'center_y': .5}
+            on_press:
+                root.manager.transition.direction = "left"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
