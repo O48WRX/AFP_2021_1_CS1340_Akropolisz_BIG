@@ -34,6 +34,7 @@ screen_manager = ScreenManager()
 # Screenek hozzáadása a button-ök által hivatkozott nevekkel
 screen_manager.add_widget(MainMenu(name="main_menu"))
 screen_manager.add_widget(CreateCollage(name="user_collage"))
+screen_manager.add_widget(Demo(name="demo"))
 
 # App létrehozása
 
