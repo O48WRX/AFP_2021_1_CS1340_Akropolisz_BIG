@@ -50,3 +50,16 @@
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "main_menu"
+<Demo>
+    BoxLayout:
+        orientation:"vertical"
+        padding:200
+        spacing:20
+        Button:
+            text:"Back"
+            size:(100, 150)
+            pos_hint:{'x': 0, 'y': 0}
+            on_press:
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "main_menu"
