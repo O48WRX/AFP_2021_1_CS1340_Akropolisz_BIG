@@ -21,6 +21,11 @@ class MainMenu(Screen):
 class CreateCollage(Screen):
     pass
 
+
+class Demo(Screen):
+    pass
+
+
 # Screen manager deklarálása
 
 
