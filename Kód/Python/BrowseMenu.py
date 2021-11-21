@@ -41,6 +41,7 @@ screen_manager = ScreenManager()
 screen_manager.add_widget(MainMenu(name="main_menu"))
 screen_manager.add_widget(CreateCollage(name="user_collage"))
 screen_manager.add_widget(Demo(name="demo"))
+screen_manager.add_widget(Help(name="help"))
 
 # App létrehozása
 
