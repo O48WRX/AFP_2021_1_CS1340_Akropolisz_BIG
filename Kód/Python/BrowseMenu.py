@@ -18,4 +18,12 @@ class CreateCollage(Screen):
 
 screen_manager = ScreenManager()
 
+screen_manager.add_widget(MainMenu(name="main_menu"))
+screen_manager.add_widget(CreateCollage(name="user_collage"))
 
+class VideoCreator(App):
+    def build(self):
+        return screen_manager
+
+vc_app = VideoCreator()
+vc_app.run()
