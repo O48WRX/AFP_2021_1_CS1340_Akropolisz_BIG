@@ -51,19 +51,51 @@
                 root.manager.transition.duration = 1
                 root.manager.current = "main_menu"
 <Demo>
-    BoxLayout:
-        orientation:"vertical"
-        padding:200
-        spacing:20
+    FloatLayout:
+        size: (300, 300)
         Video:
+            id: 2
+            size_hint_x: 0.4
+            size_hint_y: 0.5
             source: "wavetest.mp4"
             state: "play"
             allow_stretch: True
+            pos: (10, 300)
             options: {'eos' : 'loop'}
+        Video:
+            id: 1
+            size_hint_x: 0.4
+            size_hint_y: 0.5
+            source: "wavetest.mp4"
+            state: "play"
+            allow_stretch: True
+            pos: (10, 20)
+            options: {'eos' : 'loop'}
+        Video:
+            id: 3
+            size_hint_x: 0.4
+            size_hint_y: 0.5
+            source: "wavetest.mp4"
+            state: "play"
+            allow_stretch: True
+            pos: (450, 300)
+            options: {'eos' : 'loop'}
+        Video:
+            id: 4
+            size_hint_x: 0.4
+            size_hint_y: 0.5
+            source: "wavetest.mp4"
+            state: "play"
+            allow_stretch: True
+            pos: (450, 20)
+            options: {'eos' : 'loop'}
+        Label:
+            text: "Hey, this is the demo!"
+            pos: (0, 15)
         Button:
+            size_hint_x: 0.2
+            size_hint_y: 0.1
             text:"Back"
-            size:(100, 150)
-            pos_hint:{'x': 0, 'y': 0}
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
