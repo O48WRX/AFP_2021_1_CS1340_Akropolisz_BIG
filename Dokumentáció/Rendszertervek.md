@@ -33,7 +33,8 @@ Bármilyen operációs rendszeren futtatható.
 
 ## 6. Funkcionális terv
 
-Rendszerszereplő: - Felhasználó: A programnak nincs más szereplője, csak az alkalmazás felhasználója, aki kiválasztja a videókat amikből létre szeretné hozzni a kollázst.
+Rendszerszereplő: 
+- Felhasználó: A programnak nincs más szereplője, csak az alkalmazás felhasználója, aki kiválasztja a videókat amikből létre szeretné hozzni a kollázst.
 
 ## 7. Architekturális terv
 
