@@ -53,4 +53,4 @@ Az alkalmazás bővítése egyelőre tervben van, további funkciók implementá
 
 ## 11. Implementációs terv
 
-A program Python és Kivy nyelven valósul meg a felhasználóbarát dizájn és logika elkészítése érdekében. 
+A program Python és Kivy nyelven valósul meg a felhasználóbarát dizájn és logika elkészítése érdekében, ezek a kívánt funkciók teljes tárházát elérhetővé teszik, viszonylag egyszerű módon, a Pythonnál csak a különböző csomagokat kell importálni a program működésébe, ez a végleges programban a felhasználó számára nem észrevehető. 
