@@ -54,44 +54,51 @@
     FloatLayout:
         size: (300, 300)
         Video:
-            id: 2
+            id: vid2
             size_hint_x: 0.4
             size_hint_y: 0.5
             source: "wavetest.mp4"
-            state: "play"
+            #state: "play"
             allow_stretch: True
             pos: (10, 300)
             options: {'eos' : 'loop'}
         Video:
-            id: 1
+            id: vid1
             size_hint_x: 0.4
             size_hint_y: 0.5
             source: "wavetest.mp4"
-            state: "play"
+            #state: "play"
             allow_stretch: True
             pos: (10, 20)
             options: {'eos' : 'loop'}
         Video:
-            id: 3
+            id: vid3
             size_hint_x: 0.4
             size_hint_y: 0.5
             source: "wavetest.mp4"
-            state: "play"
+            #state: "play"
             allow_stretch: True
             pos: (450, 300)
             options: {'eos' : 'loop'}
         Video:
-            id: 4
+            id: vid4
             size_hint_x: 0.4
             size_hint_y: 0.5
             source: "wavetest.mp4"
-            state: "play"
+            #state: "play"
             allow_stretch: True
             pos: (450, 20)
             options: {'eos' : 'loop'}
-        Label:
+        Button:
             text: "Hey, this is the demo!"
-            pos: (0, 15)
+            pos_hint:{'center_x': .5, 'center_y': .5}
+            size_hint_x: 0.2
+            size_hint_y: 0.1
+            on_press:
+                setattr(vid1,'state','play')
+                setattr(vid2,'state','play')
+                setattr(vid3,'state','play')
+                setattr(vid4,'state','play')
         Button:
             size_hint_x: 0.2
             size_hint_y: 0.1
