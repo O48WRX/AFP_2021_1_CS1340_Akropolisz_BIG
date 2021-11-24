@@ -1,4 +1,5 @@
-from kivy.core.video import Video
+from kivy.clock import Clock
+from kivy.uix.video import Video
 from kivy.lang import Builder
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
@@ -53,7 +54,6 @@ class VideoCreator(App):
         return screen_manager
 
 # App futtatása
-
 
 vc_app = VideoCreator()
 vc_app.run()
