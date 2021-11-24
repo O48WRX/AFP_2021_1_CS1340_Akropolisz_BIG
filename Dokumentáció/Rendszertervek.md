@@ -45,11 +45,11 @@ A fejlesztés során szükséges a folytonos tesztelés, amellyel a felmerülő 
 
 ## 9. Telepítési terv
 
-Az alkalmazás nem igényel telepítést, a .exe állomány futtatásával indítható.
+Az alkalmazás, ahogy az architekturális tervben látható, nem igényel telepítést, egyszerűen az .exe állomány futtatásával indítható, ezután teljes mértékben el lehet érni az összes implementált funkciót.
 
 ## 10. Karbantartási terv
 
-Az alkalmazás bővítése tervbe van. Négynél több videóból álló kollázsok készítése a későbbiekben.
+Az alkalmazás bővítése egyelőre tervben van, további funkciók implementálásre kerülhetnek később. Ilyen példáuk, hogy négynél több videóból álló kollázsok készítését is lehetővé tegyük, azok pozícióját változtassuk, háttérszínt, betűtípust szerkesszünk magán a felületen, valamint egyfajta dekoratív keretet adjunk a lejátszott videofájloknak.
 
 ## 11. Implementációs terv
 
