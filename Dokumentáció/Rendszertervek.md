@@ -27,9 +27,9 @@ A projekt elkülönül dizájn és logika részekre. Ezeken a részeken más-má
 
 ## 5. Fizikai környezet
 
-A rendszer fejlesztése python és kivy segítségével történik. 
-Minimális gépigényre van szükség a program futtatásához.
-Bármilyen operációs rendszeren futtatható.
+A rendszer fejlesztése és megvalósítása Python és Kivy programnyelvek segítségével történik. 
+Minimális gépigényre van szükség a program futtatásához, igaz, a Python lassabb futtatást tesz lehetővé abból kifolyólag, hogy egy magasabb szintű programozási nyelv.
+Bármilyen operációs rendszeren futtatható, szintén a Python-os mivoltából kifolyólag, amely megkönnyíti a crossplatform fejlesztést is.
 
 ## 6. Funkcionális terv
 
