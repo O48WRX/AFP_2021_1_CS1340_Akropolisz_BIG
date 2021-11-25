@@ -27,30 +27,31 @@ A projekt elkülönül dizájn és logika részekre. Ezeken a részeken más-má
 
 ## 5. Fizikai környezet
 
-A rendszer fejlesztése python és kivy segítségével történik. 
-Minimális gépigényre van szükség a program futtatásához.
-Bármilyen operációs rendszeren futtatható.
+A rendszer fejlesztése és megvalósítása Python és Kivy programnyelvek segítségével történik. 
+Minimális gépigényre van szükség a program futtatásához, igaz, a Python lassabb futtatást tesz lehetővé abból kifolyólag, hogy egy magasabb szintű programozási nyelv.
+Bármilyen operációs rendszeren futtatható, szintén a Python-os mivoltából kifolyólag, amely megkönnyíti a crossplatform fejlesztést is.
 
 ## 6. Funkcionális terv
 
-Rendszerszereplő: - Felhasználó: A programnak nincs más szereplője, csak az alkalmazás felhasználója, aki kiválasztja a videókat amikből létre szeretné hozzni a kollázst.
+Rendszerszereplő: 
+- Felhasználó: A programnak nincs más szereplője, csak az alkalmazás felhasználója, aki kiválasztja a videókat amikből létre szeretné hozzni a kollázst.
 
 ## 7. Architekturális terv
 
-A rendszerhez mindössze egy .exe állomány futtatására van szükség, nem igényel egyéb futtatáshoz szükséges követelményeket. 
+A rendszerhez mindössze egy .exe állomány futtatására van szükség, valamint a tallózandó videófájlok megfelelő elérésére, azonban ezeken túl nem igényel egyéb futtatáshoz szükséges követelményeket. 
 
 ## 8. Tesztterv
 
-A fejlesztés során szükséges a folytonos tesztelés. Ellenőrizni kell a gombok működését, a videók tallózását valamint a kollázs készítését. TODO: Tesztek
+A fejlesztés során szükséges a folytonos tesztelés, amellyel a felmerülő hibákat ki tudjuk küszöbölni. Ellenőrizni kell a gombok megfelelő működését, a videók tallózását valamint a kollázs készítését, hogy az igények szerint alakul-e. TODO: Tesztek
 
 ## 9. Telepítési terv
 
-Az alkalmazás nem igényel telepítést, a .exe állomány futtatásával indítható.
+Az alkalmazás, ahogy az architekturális tervben látható, nem igényel telepítést, egyszerűen az .exe állomány futtatásával indítható, ezután teljes mértékben el lehet érni az összes implementált funkciót.
 
 ## 10. Karbantartási terv
 
-Az alkalmazás bővítése tervbe van. Négynél több videóból álló kollázsok készítése a későbbiekben.
+Az alkalmazás bővítése egyelőre tervben van, további funkciók implementálásre kerülhetnek később. Ilyen példáuk, hogy négynél több videóból álló kollázsok készítését is lehetővé tegyük, azok pozícióját változtassuk, háttérszínt, betűtípust szerkesszünk magán a felületen, valamint egyfajta dekoratív keretet adjunk a lejátszott videofájloknak.
 
 ## 11. Implementációs terv
 
-A program Python és Kivy nyelven valósul meg a felhasználóbarát dizájn és logika elkészítése érdekében. 
+A program Python és Kivy nyelven valósul meg a felhasználóbarát dizájn és logika elkészítése érdekében, ezek a kívánt funkciók teljes tárházát elérhetővé teszik, viszonylag egyszerű módon, a Pythonnál csak a különböző csomagokat kell importálni a program működésébe, ez a végleges programban a felhasználó számára nem észrevehető. 
