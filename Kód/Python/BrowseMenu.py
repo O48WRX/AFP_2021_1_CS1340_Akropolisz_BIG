@@ -8,7 +8,7 @@ from kivy.core.window import Window
 Builder.load_file("KV_Files/MainMenu.kv")
 
 # itt lehet állítani színt a háttérhez.
-Window.clearcolor = (0, .6, 0, 1)
+Window.clearcolor = (48 / 255, 48 / 255, 48 / 255, 1)
 
 # Screenek létrehozása
 # MainMenu Screen létrehozása
