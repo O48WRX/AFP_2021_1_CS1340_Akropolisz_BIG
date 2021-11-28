@@ -50,7 +50,7 @@ Az alkalmazás, ahogy az architekturális tervben látható, nem igényel telep�
 
 ## 10. Karbantartási terv
 
-Az alkalmazás bővítése egyelőre tervben van, további funkciók implementálásre kerülhetnek később. Ilyen példáuk, hogy négynél több videóból álló kollázsok készítését is lehetővé tegyük, azok pozícióját változtassuk, háttérszínt, betűtípust szerkesszünk magán a felületen, valamint egyfajta dekoratív keretet adjunk a lejátszott videofájloknak.
+Az alkalmazás bővítése egyelőre tervben van, további funkciók implementálásra kerülhetnek később. Ilyen például, hogy négynél több videóból álló kollázsok készítését is lehetővé tegyük, azok pozícióját változtassuk, háttérszínt, betűtípust szerkesszünk magán a felületen, valamint egyfajta dekoratív keretet adjunk a lejátszott videofájloknak.
 
 ## 11. Implementációs terv
 
