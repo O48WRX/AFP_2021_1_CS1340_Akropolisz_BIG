@@ -21,8 +21,29 @@ class MainMenu(Screen):
 
 
 class CreateCollage(Screen):
-    pass
+    def selected1(self, filename):
+        try:
+            self.ids.uc_vid1.source = filename[0]
+        except:
+            pass
 
+    def selected2(self, filename):
+        try:
+            self.ids.uc_vid2.source = filename[0]
+        except:
+            pass
+
+    def selected1(self, filename):
+        try:
+            self.ids.uc_vid3.source = filename[0]
+        except:
+            pass
+
+    def selected1(self, filename):
+        try:
+            self.ids.uc_vid4.source = filename[0]
+        except:
+            pass
 # Demo screen létrehozása
 
 

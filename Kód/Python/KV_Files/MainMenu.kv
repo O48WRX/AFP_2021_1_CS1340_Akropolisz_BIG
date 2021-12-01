@@ -45,17 +45,67 @@
             background_color: 1, 0, 0, 1
             on_press: app.stop()
 <CreateCollage>
-    FloatLayout:
+    id: uc_coll
+    BoxLayout:
+        orientation:'vertical'
         Button:
-            text:"Back"
-            size_hint_x: 0.4
-            size_hint_y: 0.2
-            pos: (10, 20)
-            background_color: 1, 0, 0, 1
+            id:uc_vid1_button
+            pos:(10, 300)
+            size_hint:(0.5, 0.5)
+            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            text:"Első videó tallózás"
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
-                root.manager.current = "main_menu"
+                root.manager.current = "vid1_fileselect"
+        Button:
+            id:uc_vid2_button
+            size_hint:(0.5, 0.5)
+            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            text:"Második videó tallózás"
+            pos:(10, 20)
+            on_press:
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "vid2_fileselect"
+        Button:
+            id:uc_vid3_button
+            size_hint:(0.5, 0.5)
+            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            text:"Harmadik videó tallózás"
+            pos:(450, 300)
+            on_press:
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "vid3_fileselect"
+        Button:
+            id:uc_vid4_button
+            size_hint:(0.5, 0.5)
+            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            text:"Negyedik videó tallózás"
+            pos:(450, 20)
+            on_press:
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "vid4_fileselect"
+        BoxLayout:
+            orientation:'horizontal'
+            Button:
+                text:"Back"
+                pos_hint:{'x': 0, 'y': 0}
+                size_hint:(0.5, 0.5)
+                background_color: 1, 0, 0, 1
+                on_press:
+                    root.manager.transition.direction = "right"
+                    root.manager.transition.duration = 1
+                    root.manager.current = "main_menu"
+            Button:
+                text:"Tovább a kollázsomhoz"
+                size_hint:(0.5, 0.5)
+                on_press:
+                    root.manager.transition.direction = "right"
+                    root.manager.transition.duration = 1
+                    root.manager.current = "my_collage"
 <Demo>
     FloatLayout:
         size: (300, 300)
@@ -194,3 +244,19 @@
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "main_menu"
+<SelectFile1>
+    FloatLayout:
+        FileChooserIconView:
+            id:filechooser1
+<SelectFile2>
+    FloatLayout:
+        FileChooserIconView:
+            id:filechooser2
+<SelectFile3>
+    FloatLayout:
+        FileChooserIconView:
+            id:filechooser3
+<SelectFile4>
+    FloatLayout:
+        FileChooserIconView:
+            id:filechooser4
