@@ -1,4 +1,5 @@
 from kivy.clock import Clock
+from kivy.properties import ObjectProperty
 from kivy.uix.video import Video
 from kivy.lang import Builder
 from kivy.app import App
@@ -21,29 +22,7 @@ class MainMenu(Screen):
 
 
 class CreateCollage(Screen):
-    def selected1(self, filename):
-        try:
-            self.ids.uc_vid1.source = filename[0]
-        except:
-            pass
-
-    def selected2(self, filename):
-        try:
-            self.ids.uc_vid2.source = filename[0]
-        except:
-            pass
-
-    def selected1(self, filename):
-        try:
-            self.ids.uc_vid3.source = filename[0]
-        except:
-            pass
-
-    def selected1(self, filename):
-        try:
-            self.ids.uc_vid4.source = filename[0]
-        except:
-            pass
+    pass
 # Demo screen létrehozása
 
 
@@ -74,7 +53,15 @@ class SelectFile4(Screen):
     pass
 
 
-screen_manager = ScreenManager()
+
+class Screen_manager(ScreenManager):
+    path_data1 = ObjectProperty(SelectFile1)
+    path_data2 = ObjectProperty(SelectFile2)
+    path_data3 = ObjectProperty(SelectFile3)
+    path_data4 = ObjectProperty(SelectFile4)
+
+
+screen_manager = Screen_manager()
 
 # Screenek hozzáadása a button-ök által hivatkozott nevekkel
 screen_manager.add_widget(MainMenu(name="main_menu"))
