@@ -115,8 +115,10 @@
             size_hint_y: 0.5
             source: "wavetest.mp4"
             state: "stop"
+            #options: {'eos': 'loop'}
             allow_stretch: True
             pos: (10, 300)
+
         Slider:
             id:v2_slider
             orientation:"horizontal"
@@ -126,6 +128,7 @@
             min:0
             max:10
             value:0
+
         Label:
             text:str(v2_slider.value)
             size_hint: 0.1, 0.1
@@ -140,6 +143,7 @@
             state: "stop"
             allow_stretch: True
             pos: (10, 20)
+            #options: {'eos': 'loop'}
         Slider:
             id:v1_slider
             orientation:"horizontal"
@@ -153,7 +157,7 @@
             text:str(v1_slider.value)
             size_hint: 0.1, 0.1
             font_size: 30
-            color:0.0, 0.0, 0.0
+            color:0.0, 0.0, 1.0
             pos_hint:{"center_x":0.3,"center_y":0.5}
         Video:
             id: vid3
@@ -163,6 +167,7 @@
             state: "stop"
             allow_stretch: True
             pos: (450, 300)
+            #options: {'eos': 'loop'}
         Slider:
             id:v3_slider
             orientation:"horizontal"
@@ -186,6 +191,7 @@
             state: "stop"
             allow_stretch: True
             pos: (450, 20)
+            #options: {'eos': 'loop'}
         Slider:
             id:v4_slider
             orientation:"horizontal"
@@ -207,11 +213,14 @@
             size_hint_x: 0.2
             size_hint_y: 0.1
             background_color: 0.2, 0.9, 0.4, 1
+
             on_press:
-                setattr(vid1,'state','play')
-                setattr(vid2,'state','play')
-                setattr(vid3,'state','play')
-                setattr(vid4,'state','play')
+               # callback1=setattr(vid1,'state','play')
+                Clock.schedule_once(lambda dt: setattr(vid1,'state','play'),v1_slider.value)
+                Clock.schedule_once(lambda dt: setattr(vid2,'state','play'),v2_slider.value)
+                Clock.schedule_once(lambda dt: setattr(vid3,'state','play'),v3_slider.value)
+                Clock.schedule_once(lambda dt: setattr(vid4,'state','play'),v4_slider.value)
+
         Button:
             size_hint_x: 0.2
             size_hint_y: 0.1
