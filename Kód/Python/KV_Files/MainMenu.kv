@@ -416,3 +416,30 @@
         font_size: 30
         color:0.0, 0.0, 0.0
         pos_hint:{"center_x":0.65,"center_y":0.08}
+    Button:
+        text: "Hey, this is the demo!"
+        pos_hint:{'center_x': .5, 'center_y': .5}
+        size_hint_x: 0.2
+        size_hint_y: 0.1
+        background_color: 0.2, 0.9, 0.4, 1
+
+        on_press:
+            Clock.schedule_once(lambda dt: setattr(vid1,'state','play'),v1_slider.value)
+            Clock.schedule_once(lambda dt: setattr(vid2,'state','play'),v2_slider.value)
+            Clock.schedule_once(lambda dt: setattr(vid3,'state','play'),v3_slider.value)
+            Clock.schedule_once(lambda dt: setattr(vid4,'state','play'),v4_slider.value)
+
+    Button:
+        size_hint_x: 0.2
+        size_hint_y: 0.1
+        pos_hint:{'center_x': .5, 'center_y': .35}
+        text:"Back"
+        background_color: 1, 0, 0, 1
+        on_press:
+            setattr(vid1,'state','stop')
+            setattr(vid2,'state','stop')
+            setattr(vid3,'state','stop')
+            setattr(vid4,'state','stop')
+            root.manager.transition.direction = "right"
+            root.manager.transition.duration = 1
+            root.manager.current = "main_menu"
