@@ -53,6 +53,10 @@ class SelectFile4(Screen):
     pass
 
 
+class MyCollage(Screen):
+    pass
+
+
 
 class Screen_manager(ScreenManager):
     path_data1 = ObjectProperty(SelectFile1)
@@ -72,6 +76,7 @@ screen_manager.add_widget(SelectFile1(name="vid1_fileselect"))
 screen_manager.add_widget(SelectFile2(name="vid2_fileselect"))
 screen_manager.add_widget(SelectFile3(name="vid3_fileselect"))
 screen_manager.add_widget(SelectFile4(name="vid4_fileselect"))
+screen_manager.add_widget(MyCollage(name="my_collage"))
 # App létrehozása
 
 
