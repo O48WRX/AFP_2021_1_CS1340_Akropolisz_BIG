@@ -59,10 +59,10 @@ class MyCollage(Screen):
 
 
 class Screen_manager(ScreenManager):
-    path_data1 = ObjectProperty(SelectFile1)
-    path_data2 = ObjectProperty(SelectFile2)
-    path_data3 = ObjectProperty(SelectFile3)
-    path_data4 = ObjectProperty(SelectFile4)
+    data_path1 = ObjectProperty(SelectFile1)
+    data_path2 = ObjectProperty(SelectFile2)
+    data_path3 = ObjectProperty(SelectFile3)
+    data_path4 = ObjectProperty(SelectFile4)
 
 
 screen_manager = Screen_manager()

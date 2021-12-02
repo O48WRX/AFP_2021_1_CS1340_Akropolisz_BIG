@@ -267,53 +267,53 @@
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "main_menu"
-<SelectFile1>
-    BoxLayout:
-        id: vid1select
-        FileChooserIconView:
-            id:filechooser1
-            on_selection:
-                root.manager.data_path1 = filechooser1.path
-                root.manager.transition.direction = "right"
-                root.manager.transition.duration = 1
-                root.manager.current = "user_collage"
-<SelectFile2>
-    BoxLayout:
-        id: vid2select
-        FileChooserIconView:
-            id:filechooser2
-            on_selection:
-                root.manager.data_path2 = filechooser2.path
-                root.manager.transition.direction = "right"
-                root.manager.transition.duration = 1
-                root.manager.current = "user_collage"
-<SelectFile3>
-    BoxLayout:
-        id: vid3select
-        FileChooserIconView:
-            id:filechooser3
-            on_selection:
-                root.manager.data_path3 = filechooser3.path
-                root.manager.transition.direction = "right"
-                root.manager.transition.duration = 1
-                root.manager.current = "user_collage"
-<SelectFile4>
-    BoxLayout:
-        id: vid4select
-        FileChooserIconView:
-            id:filechooser4
-            on_selection:
-                root.manager.data_path4 = filechooser4.path
-                root.manager.transition.direction = "right"
-                root.manager.transition.duration = 1
-                root.manager.current = "user_collage"
+#<SelectFile1>
+#    BoxLayout:
+#        id: vid1select
+#        FileChooserIconView:
+#            id:filechooser1
+#            on_selection:
+#                root.manager.data_path1 = filechooser1.path
+#                root.manager.transition.direction = "right"
+#                root.manager.transition.duration = 1
+#                root.manager.current = "user_collage"
+#<SelectFile2>
+#    BoxLayout:
+#        id: vid2select
+#        FileChooserIconView:
+#            id:filechooser2
+#            on_selection:
+#                root.manager.data_path2 = filechooser2.path
+#                root.manager.transition.direction = "right"
+#                root.manager.transition.duration = 1
+#                root.manager.current = "user_collage"
+#<SelectFile3>
+#    BoxLayout:
+#        id: vid3select
+#        FileChooserIconView:
+#            id:filechooser3
+#            on_selection:
+#                root.manager.data_path3 = filechooser3.path
+#                root.manager.transition.direction = "right"
+#                root.manager.transition.duration = 1
+#                root.manager.current = "user_collage"
+#<SelectFile4>
+#    BoxLayout:
+#        id: vid4select
+#        FileChooserIconView:
+#            id:filechooser4
+#            on_selection:
+#                root.manager.data_path4 = filechooser4.path
+#                root.manager.transition.direction = "right"
+#                root.manager.transition.duration = 1
+#                root.manager.current = "user_collage"
 
 <MyCollage>
     Video:
         id: vid1
         size_hint_x: 0.4
         size_hint_y: 0.5
-        source: root.manager.data_path1
+        #source: root.manager.data_path1
         state: "stop"
         allow_stretch: True
 
@@ -339,7 +339,7 @@
         id: vid2
         size_hint_x: 0.4
         size_hint_y: 0.5
-        source: root.manager.data_path2
+        #source: root.manager.data_path2
         state: "stop"
         options: {'eos': 'loop'}
         allow_stretch: True
@@ -368,7 +368,7 @@
         id: vid3
         size_hint_x: 0.4
         size_hint_y: 0.5
-        source: root.manager.data_path3
+        #source: root.manager.data_path3
         state: "stop"
         allow_stretch: True
 
@@ -396,7 +396,7 @@
         id: vid4
         size_hint_x: 0.4
         size_hint_y: 0.5
-        source: root.manager.data_path4
+        #source: root.manager.data_path4
         state: "stop"
         allow_stretch: True
         pos: (450, 20)
