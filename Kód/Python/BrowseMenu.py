@@ -58,6 +58,21 @@ class Help(Screen):
 
 # Screen manager deklarálása
 
+class SelectFile1(Screen):
+    pass
+
+
+class SelectFile2(Screen):
+    pass
+
+
+class SelectFile3(Screen):
+    pass
+
+
+class SelectFile4(Screen):
+    pass
+
 
 screen_manager = ScreenManager()
 
@@ -66,7 +81,10 @@ screen_manager.add_widget(MainMenu(name="main_menu"))
 screen_manager.add_widget(CreateCollage(name="user_collage"))
 screen_manager.add_widget(Demo(name="demo"))
 screen_manager.add_widget(Help(name="help"))
-
+screen_manager.add_widget(SelectFile1(name="vid1_fileselect"))
+screen_manager.add_widget(SelectFile2(name="vid2_fileselect"))
+screen_manager.add_widget(SelectFile3(name="vid3_fileselect"))
+screen_manager.add_widget(SelectFile4(name="vid4_fileselect"))
 # App létrehozása
 
 

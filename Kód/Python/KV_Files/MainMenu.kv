@@ -248,15 +248,56 @@
     FloatLayout:
         FileChooserIconView:
             id:filechooser1
+        Button:
+            text:"Back"
+            size:(100, 150)
+            pos_hint:{'x': 20, 'y': 450}
+            background_color: 1, 0, 0, 1
+            on_press:
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
 <SelectFile2>
     FloatLayout:
         FileChooserIconView:
             id:filechooser2
+        Button:
+            text:"Back"
+            size:(100, 150)
+            pos_hint:{'x': 20, 'y': 450}
+            background_color: 1, 0, 0, 1
+            on_press:
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
 <SelectFile3>
     FloatLayout:
         FileChooserIconView:
             id:filechooser3
+        Button:
+            text:"Back"
+            size:(100, 150)
+            pos_hint:{'x': 20, 'y': 450}
+            background_color: 1, 0, 0, 1
+            on_press:
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
 <SelectFile4>
-    FloatLayout:
+    BoxLayout:
+        id: vid4select
         FileChooserIconView:
             id:filechooser4
+            on_selection: vid4select.selected(filechooser4.selection)
+
+    BoxLayout:
+        Button:
+            text:"Back"
+            size:(100, 150)
+            pos_hint:{'x': 20, 'y': 50}
+            background_color: 1, 0, 0, 1
+            on_press:
+                vid4select.open(filechooser4.path, filechooser4.selection)
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
