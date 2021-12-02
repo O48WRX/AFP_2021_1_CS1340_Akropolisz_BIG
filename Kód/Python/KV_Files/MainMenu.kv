@@ -29,6 +29,7 @@
                 root.manager.transition.direction = "left"
                 root.manager.transition.duration = 1
                 root.manager.current = "demo"
+
         Button:
             text:"Help"
             size:(100, 150)
@@ -229,7 +230,6 @@
             background_color: 0.2, 0.9, 0.4, 1
 
             on_press:
-               # callback1=setattr(vid1,'state','play')
                 Clock.schedule_once(lambda dt: setattr(vid1,'state','play'),v1_slider.value)
                 Clock.schedule_once(lambda dt: setattr(vid2,'state','play'),v2_slider.value)
                 Clock.schedule_once(lambda dt: setattr(vid3,'state','play'),v3_slider.value)
