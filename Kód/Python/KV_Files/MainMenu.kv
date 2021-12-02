@@ -109,6 +109,33 @@
 <Demo>
     FloatLayout:
         size: (300, 300)
+
+        Video:
+            id: vid1
+            size_hint_x: 0.4
+            size_hint_y: 0.5
+            source: "wavetest.mp4"
+            state: "stop"
+            allow_stretch: True
+
+            pos: (10, 300)
+            options: {'eos': 'loop'}
+        Slider:
+            id:v1_slider
+            orientation:"horizontal"
+            size_hint:0.2,0.5
+            pos_hint:{"center_x":0.1,"center_y":0.5}
+            step:0.1
+            min:0
+            max:10
+            value:0
+        Label:
+            text:str(v1_slider.value)
+            size_hint: 0.1, 0.1
+            font_size: 30
+            color:0.0, 0.0, 1.0
+            pos_hint:{"center_x":0.3,"center_y":0.5}
+
         Video:
             id: vid2
             size_hint_x: 0.4
@@ -117,7 +144,7 @@
             state: "stop"
             options: {'eos': 'loop'}
             allow_stretch: True
-            pos: (10, 300)
+            pos: (450, 300)
 
         Slider:
             id:v2_slider
@@ -135,30 +162,9 @@
             font_size: 30
             color:0.0, 0.0, 0.0
             pos_hint:{"center_x":0.65,"center_y":0.5}
-        Video:
-            id: vid1
-            size_hint_x: 0.4
-            size_hint_y: 0.5
-            source: "wavetest.mp4"
-            state: "stop"
-            allow_stretch: True
-            pos: (10, 20)
-            options: {'eos': 'loop'}
-        Slider:
-            id:v1_slider
-            orientation:"horizontal"
-            size_hint:0.2,0.5
-            pos_hint:{"center_x":0.1,"center_y":0.5}
-            step:0.1
-            min:0
-            max:10
-            value:0
-        Label:
-            text:str(v1_slider.value)
-            size_hint: 0.1, 0.1
-            font_size: 30
-            color:0.0, 0.0, 1.0
-            pos_hint:{"center_x":0.3,"center_y":0.5}
+
+
+
         Video:
             id: vid3
             size_hint_x: 0.4
@@ -166,7 +172,8 @@
             source: "wavetest.mp4"
             state: "stop"
             allow_stretch: True
-            pos: (450, 300)
+
+            pos: (10, 20)
             options: {'eos': 'loop'}
         Slider:
             id:v3_slider
@@ -183,6 +190,9 @@
             font_size: 30
             color:0.0, 0.0, 0.0
             pos_hint:{"center_x":0.3,"center_y":0.08}
+
+
+
         Video:
             id: vid4
             size_hint_x: 0.4
@@ -207,6 +217,10 @@
             font_size: 30
             color:0.0, 0.0, 0.0
             pos_hint:{"center_x":0.65,"center_y":0.08}
+
+
+
+
         Button:
             text: "Hey, this is the demo!"
             pos_hint:{'center_x': .5, 'center_y': .5}
