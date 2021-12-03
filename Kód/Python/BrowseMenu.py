@@ -22,7 +22,8 @@ class MainMenu(Screen):
 
 
 class CreateCollage(Screen):
-    pass
+    def selected1(self, filename):
+        self.ids.uc_vid1.source = filename[0]
 # Demo screen létrehozása
 
 
@@ -59,10 +60,7 @@ class MyCollage(Screen):
 
 
 class Screen_manager(ScreenManager):
-    data_path1 = ObjectProperty(SelectFile1)
-    data_path2 = ObjectProperty(SelectFile2)
-    data_path3 = ObjectProperty(SelectFile3)
-    data_path4 = ObjectProperty(SelectFile4)
+    pass
 
 
 screen_manager = Screen_manager()

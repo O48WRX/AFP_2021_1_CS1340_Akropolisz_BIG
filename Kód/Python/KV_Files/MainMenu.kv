@@ -47,54 +47,114 @@
             on_press: app.stop()
 <CreateCollage>
     id: uc_coll
-    BoxLayout:
+    FloatLayout:
         orientation:'vertical'
+        Video:
+            id: uc_vid1
+            visible: False
+            hasSource: False
+            size_hint_x: 0.4 if self.visible and self.hasSource else 0
+            size_hint_y: 0.5 if self.visible and self.hasSource else 0
+            opacity: 1 if self.visible and self.hasSource else 0
+            state: "stop"
+            allow_stretch: True
+
+            pos: (10, 350)
+            options: {'eos': 'loop'}
         Button:
             id:uc_vid1_button
-            pos:(10, 300)
-            size_hint:(0.5, 0.5)
-            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            pos:(100, 350)
+            size_hint:(0.2, 0.05)
             text:"Első videó tallózás"
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid1_fileselect"
+        Video:
+            id: uc_vid2
+            visible: False
+            hasSource: False
+            size_hint_x: 0.4 if self.visible and self.hasSource else 0
+            size_hint_y: 0.5 if self.visible else 0
+            opacity: 1 if self.visible and self.hasSource else 0
+            state: "stop"
+            options: {'eos': 'loop'}
+            allow_stretch: True
+            pos: (450, 350)
         Button:
             id:uc_vid2_button
-            size_hint:(0.5, 0.5)
-            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            size_hint:(0.2, 0.05)
             text:"Második videó tallózás"
-            pos:(10, 20)
+            pos:(525, 350)
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid2_fileselect"
+        Video:
+            id: uc_vid3
+            visible: False
+            hasSource: False
+            size_hint_x: 0.4 if self.visible and self.hasSource else 0
+            size_hint_y: 0.5 if self.visible and self.hasSource else 0
+            opacity: 1 if self.visible and self.hasSource else 0
+            state: "stop"
+            allow_stretch: True
+            pos: (10, 70)
+            options: {'eos': 'loop'}
         Button:
             id:uc_vid3_button
-            size_hint:(0.5, 0.5)
-            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            size_hint:(0.2, 0.05)
             text:"Harmadik videó tallózás"
-            pos:(450, 300)
+            pos:(100, 70)
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid3_fileselect"
+        Video:
+            id: uc_vid4
+            visible: False
+            hasSource: False
+            size_hint_x: 0.4 if self.visible and self.hasSource else 0
+            size_hint_y: 0.5 if self.visible and self.hasSource else 0
+            opacity: 1 if self.visible and self.hasSource else 0
+            state: "stop"
+            allow_stretch: True
+            pos: (450, 70)
+            options: {'eos': 'loop'}
         Button:
             id:uc_vid4_button
-            size_hint:(0.5, 0.5)
-            pos_hint:{'center_x': 0.5, 'center_y':0.5}
+            size_hint:(0.2, 0.05)
             text:"Negyedik videó tallózás"
-            pos:(450, 20)
+            pos:(525, 70)
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid4_fileselect"
+        Button:
+            text: "Play My Collage!"
+            pos: (308, 300)
+            size_hint_x: 0.2
+            size_hint_y: 0.1
+            background_color: 0.2, 0.9, 0.4, 1
+            on_press:
+                setattr(uc_vid1,'state','play')
+                setattr(uc_vid1,'visible',True)
+                setattr(uc_vid2,'state','play')
+                setattr(uc_vid2,'visible',True)
+                setattr(uc_vid3,'state','play')
+                setattr(uc_vid3,'visible',True)
+                setattr(uc_vid4,'state','play')
+                setattr(uc_vid4,'visible',True)
+                #Clock.schedule_once(lambda dt: setattr(uc_vid1,'state','play'),v1_slider.value)
+                #Clock.schedule_once(lambda dt: setattr(uc_vid2,'state','play'),v2_slider.value)
+                #Clock.schedule_once(lambda dt: setattr(uc_vid3,'state','play'),v3_slider.value)
+                #Clock.schedule_once(lambda dt: setattr(uc_vid4,'state','play'),v4_slider.value)
         BoxLayout:
             orientation:'horizontal'
             Button:
                 text:"Back"
                 pos_hint:{'x': 0, 'y': 0}
-                size_hint:(0.5, 0.5)
+                size_hint:(0.1, 0.1)
                 background_color: 1, 0, 0, 1
                 on_press:
                     root.manager.transition.direction = "right"
@@ -102,7 +162,7 @@
                     root.manager.current = "main_menu"
             Button:
                 text:"Tovább a kollázsomhoz"
-                size_hint:(0.5, 0.5)
+                size_hint:(0.1, 0.1)
                 on_press:
                     root.manager.transition.direction = "right"
                     root.manager.transition.duration = 1
@@ -267,46 +327,50 @@
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "main_menu"
-#<SelectFile1>
-#    BoxLayout:
-#        id: vid1select
-#        FileChooserIconView:
-#            id:filechooser1
-#            on_selection:
-#                root.manager.data_path1 = filechooser1.path
-#                root.manager.transition.direction = "right"
-#                root.manager.transition.duration = 1
-#                root.manager.current = "user_collage"
-#<SelectFile2>
-#    BoxLayout:
-#        id: vid2select
-#        FileChooserIconView:
-#            id:filechooser2
-#            on_selection:
-#                root.manager.data_path2 = filechooser2.path
-#                root.manager.transition.direction = "right"
-#                root.manager.transition.duration = 1
-#                root.manager.current = "user_collage"
-#<SelectFile3>
-#    BoxLayout:
-#        id: vid3select
-#        FileChooserIconView:
-#            id:filechooser3
-#            on_selection:
-#                root.manager.data_path3 = filechooser3.path
-#                root.manager.transition.direction = "right"
-#                root.manager.transition.duration = 1
-#                root.manager.current = "user_collage"
-#<SelectFile4>
-#    BoxLayout:
-#        id: vid4select
-#        FileChooserIconView:
-#            id:filechooser4
-#            on_selection:
-#                root.manager.data_path4 = filechooser4.path
-#                root.manager.transition.direction = "right"
-#                root.manager.transition.duration = 1
-#                root.manager.current = "user_collage"
+<SelectFile1>
+    BoxLayout:
+        id: vid1select
+        FileChooserIconView:
+            id:filechooser1
+            on_selection:
+                root.manager.get_screen('user_collage').ids.uc_vid1.source = filechooser1.selection[0]
+                root.manager.get_screen('user_collage').ids.uc_vid1.hasSource = True
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
+<SelectFile2>
+    BoxLayout:
+        id: vid2select
+        FileChooserIconView:
+            id:filechooser2
+            on_selection:
+                root.manager.get_screen('user_collage').ids.uc_vid2.source = filechooser2.selection[0]
+                root.manager.get_screen('user_collage').ids.uc_vid2.hasSource = True
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
+<SelectFile3>
+    BoxLayout:
+        id: vid3select
+        FileChooserIconView:
+            id:filechooser3
+            on_selection:
+                root.manager.get_screen('user_collage').ids.uc_vid3.source = filechooser3.selection[0]
+                root.manager.get_screen('user_collage').ids.uc_vid3.hasSource = True
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
+<SelectFile4>
+    BoxLayout:
+        id: vid4select
+        FileChooserIconView:
+            id:filechooser4
+            on_selection:
+                root.manager.get_screen('user_collage').ids.uc_vid4.source = filechooser4.selection[0]
+                root.manager.get_screen('user_collage').ids.uc_vid4.hasSource = True
+                root.manager.transition.direction = "right"
+                root.manager.transition.duration = 1
+                root.manager.current = "user_collage"
 
 <MyCollage>
     Video:
