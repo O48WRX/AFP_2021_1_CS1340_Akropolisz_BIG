@@ -173,8 +173,10 @@
 
         Video:
             id: vid1
-            size_hint_x: 0.4
-            size_hint_y: 0.5
+            visible: False
+            size_hint_x: 0.4 if self.visible else 0
+            size_hint_y: 0.5 if self.visible else 0
+            opacity: 1 if self.visible else 0
             source: "wavetest.mp4"
             state: "stop"
             allow_stretch: True
@@ -199,8 +201,10 @@
 
         Video:
             id: vid2
-            size_hint_x: 0.4
-            size_hint_y: 0.5
+            visible: False
+            size_hint_x: 0.4 if self.visible else 0
+            size_hint_y: 0.5 if self.visible else 0
+            opacity: 1 if self.visible else 0
             source: "wavetest.mp4"
             state: "stop"
             options: {'eos': 'loop'}
@@ -228,8 +232,10 @@
 
         Video:
             id: vid3
-            size_hint_x: 0.4
-            size_hint_y: 0.5
+            visible: False
+            size_hint_x: 0.4 if self.visible else 0
+            size_hint_y: 0.5 if self.visible else 0
+            opacity: 1 if self.visible else 0
             source: "wavetest.mp4"
             state: "stop"
             allow_stretch: True
@@ -256,8 +262,10 @@
 
         Video:
             id: vid4
-            size_hint_x: 0.4
-            size_hint_y: 0.5
+            visible: False
+            size_hint_x: 0.4 if self.visible else 0
+            size_hint_y: 0.5 if self.visible else 0
+            opacity: 1 if self.visible else 0
             source: "wavetest.mp4"
             state: "stop"
             allow_stretch: True
@@ -290,6 +298,10 @@
             background_color: 0.2, 0.9, 0.4, 1
 
             on_press:
+                setattr(vid1,'visible',True)
+                setattr(vid2,'visible',True)
+                setattr(vid3,'visible',True)
+                setattr(vid4,'visible',True)
                 Clock.schedule_once(lambda dt: setattr(vid1,'state','play'),v1_slider.value)
                 Clock.schedule_once(lambda dt: setattr(vid2,'state','play'),v2_slider.value)
                 Clock.schedule_once(lambda dt: setattr(vid3,'state','play'),v3_slider.value)
@@ -306,6 +318,10 @@
                 setattr(vid2,'state','stop')
                 setattr(vid3,'state','stop')
                 setattr(vid4,'state','stop')
+                setattr(vid1,'visible',False)
+                setattr(vid2,'visible',False)
+                setattr(vid3,'visible',False)
+                setattr(vid4,'visible',False)
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "main_menu"
