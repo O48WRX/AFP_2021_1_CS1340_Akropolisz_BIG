@@ -59,3 +59,9 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 |---|---|---|
 | 1. | **Megfelelő szöveg megjelenítés** | A program ablakában a segítséget nyújtó szöveg jól megjelenik. |
 | 2. | **Megjelenési mechanika** | Az alkalmazásban rendezetten jelennek meg a program elemei. |
+
+### Hibás tesztek
+
+| Sorszám | Teszt neve | Leírása |
+|---|---|---|
+| 1. | **Felületi hiba** | A program felületén nem megfelelően jelentek meg a szöveg sorai. |
