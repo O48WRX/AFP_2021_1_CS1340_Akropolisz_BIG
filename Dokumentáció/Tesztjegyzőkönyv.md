@@ -22,3 +22,4 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 |---|---|---|
 | 1. | **Logikai teszt** | A program logikai hátterének sikeres működéstesztje. |
 | 2. | **Függvény teszt** | A program függvényeinek működésének és helyes meghívásának sikeres tesztje. |
+| 3. | **Gomb-link teszt** | A gombok helyes hivatkozási irányának tesztelése. |
