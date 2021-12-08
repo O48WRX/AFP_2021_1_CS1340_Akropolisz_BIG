@@ -31,3 +31,5 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 | Sorszám | Teszt neve | Leírása |
 |---|---|---|
 | 1. | **Crash Course teszt** | A programnak a videóforrás megadásakor abszurd fájlokat adtunk meg, és ez megzavarta a program helyes működését. |
+| 2. | **Crash Course 2 teszt** | A videók sliderjéhez abszurd értékeket adtunk meg és ez megzavarta a videók lejátszását. Ez később javítva lett. |
+
