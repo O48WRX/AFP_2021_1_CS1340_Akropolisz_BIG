@@ -33,3 +33,20 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 | 1. | **Crash Course teszt** | A programnak a videóforrás megadásakor abszurd fájlokat adtunk meg, és ez megzavarta a program helyes működését. |
 | 2. | **Crash Course 2 teszt** | A videók sliderjéhez abszurd értékeket adtunk meg és ez megzavarta a videók lejátszását. Ez később javítva lett. |
 | 3. | **Lejátszás teszt** | A lejátszónak abszurd hosszúságú videókat (több órás) adtunk meg, ez megzavarta a sliderek helyes működését és pontosságát. |
+
+## 3.2 Riczkó Henrik -D5GPJ6
+
+### Sikeres Tesztek
+
+| Sorszám | Teszt neve | Leírása |
+|---|---|---|
+| 1. | **Felhasználói felület megjelenítése** | A program megfelelően megjelent windows10 és ubuntu operációs rendszeren. |
+| 2. | **Betűstílusok** | A programon belüli karakterek megfelelően megjelentek. |
+| 3. | **Gombok méretei, kinézetei** | A gombok megjelenése és megfelelő mérete. |
+
+### Hibás tesztek
+
+| Sorszám | Teszt neve | Leírása |
+|---|---|---|
+| 1. | **Lejátszó teszt** | A program a videók lejátszása előtt fehér téglalapokat jelenített meg. Ez javítva lett. |
+| 2. | **Videó tallózás** | A program tallózás menüje helytelenül jelent meg, ez javítva lett. |
