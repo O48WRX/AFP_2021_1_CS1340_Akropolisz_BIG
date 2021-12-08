@@ -50,3 +50,11 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 |---|---|---|
 | 1. | **Lejátszó teszt** | A program a videók lejátszása előtt fehér téglalapokat jelenített meg. Ez javítva lett. |
 | 2. | **Videó tallózás** | A program tallózás menüje helytelenül jelent meg, ez javítva lett. |
+
+## 3.3 Balogh Mihály Viktor - GUFVXA
+
+### Sikeres Tesztek
+
+| Sorszám | Teszt neve | Leírása |
+|---|---|---|
+| 1. | **Megfelelő szöveg megjelenítés** | A program ablakában a segítséget nyújtó szöveg jól megjelenik. |
