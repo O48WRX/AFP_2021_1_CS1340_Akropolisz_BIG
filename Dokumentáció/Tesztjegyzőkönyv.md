@@ -21,3 +21,4 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 | Sorszám | Teszt neve | Leírása |
 |---|---|---|
 | 1. | **Logikai teszt** | A program logikai hátterének sikeres működéstesztje. |
+| 2. | **Függvény teszt** | A program függvényeinek működésének és helyes meghívásának sikeres tesztje. |
