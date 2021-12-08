@@ -32,4 +32,4 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 |---|---|---|
 | 1. | **Crash Course teszt** | A programnak a videóforrás megadásakor abszurd fájlokat adtunk meg, és ez megzavarta a program helyes működését. |
 | 2. | **Crash Course 2 teszt** | A videók sliderjéhez abszurd értékeket adtunk meg és ez megzavarta a videók lejátszását. Ez később javítva lett. |
-
+| 3. | **Lejátszás teszt** | A lejátszónak abszurd hosszúságú videókat (több órás) adtunk meg, ez megzavarta a sliderek helyes működését és pontosságát. |
