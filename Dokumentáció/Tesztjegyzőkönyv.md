@@ -25,3 +25,8 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 | 3. | **Gomb-link teszt** | A gombok helyes hivatkozási irányának tesztelése. |
 | 4. | **.KV beolvasás teszt** | A '.kv' kiterjesztésű fájl sikeres beolvasásának tesztje. |
 | 5. | **Videól működésének tesztje** | A kivy videókezelő tesztelése különböző 'source'-okkal. |
+
+### Hibás tesztek
+
+| Sorszám | Teszt neve | Leírása |
+|---|---|---|
