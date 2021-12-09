@@ -65,3 +65,20 @@ A tesztelést és hibajavítűst mind a 4 fejlesztőre kiosztottuk, a saját ter
 | Sorszám | Teszt neve | Leírása |
 |---|---|---|
 | 1. | **Felületi hiba** | A program felületén nem megfelelően jelentek meg a szöveg sorai. |
+
+## 3.4 Hadobás Dávid - TB3376
+
+### Sikeres Tesztek
+
+| Sorszám | Teszt neve | Leírása |
+|---|---|---|
+| 1. | **Felhasználói felület használhatósága** | A program minden (felhasználó által kezelhető) eleme megfelelően jelenik meg és használatra alkalmas. |
+| 2. | **Késleltetés teszt** | A videók lejátszásakor a hozzájuk csatlakoztatott slider megfelelően átadja a beírt értéket gombnyomáskor. |
+| 3. | **Egységteszt** | A program megfelelő működése a vissza gombok megnyomásakor sem szakad meg. |
+
+### Hibás tesztek
+
+| Sorszám | Teszt neve | Leírása |
+|---|---|---|
+| 1. | **Tallózás gomb tesztje** | A program kollázsképernyőjén a tallózás gombot "elfedte" a slider hitboxa, ez a probléma javítva lett később |
+| 2. | **Videó tallózás** | A fejlesztői környezet hibát jelzett ki minden alkalommal, amikor egy videót tallóztunk, annak ellenére, hogy minden további nélkül lejátsza azt a program |
