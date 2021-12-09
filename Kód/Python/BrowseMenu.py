@@ -1,3 +1,5 @@
+import os
+os.environ["KIVY_NO_CONSOLELOG"] = "1"
 from kivy.clock import Clock
 from kivy.properties import ObjectProperty
 from kivy.uix.video import Video
