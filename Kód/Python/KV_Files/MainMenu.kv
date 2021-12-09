@@ -1,6 +1,7 @@
 #:import Clock kivy.clock.Clock
 #:import partial functools
 #:import socket socket
+
 <MainMenu>:
     BoxLayout:
         orientation:"vertical"
@@ -63,13 +64,29 @@
             options: {'eos': 'loop'}
         Button:
             id:uc_vid1_button
-            pos:(100, 350)
+            pos:(100, 370)
             size_hint:(0.2, 0.05)
             text:"Első videó tallózás"
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid1_fileselect"
+        Slider:
+            id:uc_vid1_slider
+            orientation:"horizontal"
+            size_hint:0.2,0.5
+            pos_hint:{"center_x":0.1,"center_y":0.55}
+            step:0.1
+            min:0
+            max:10
+            value:0
+        Label:
+            text:str(uc_vid1_slider.value)
+            size_hint: 0.1, 0.1
+            font_size: 30
+            color:0.0, 0.0, 0.0
+            pos_hint:{"center_x":0.3,"center_y":0.55}
+
         Video:
             id: uc_vid2
             visible: False
@@ -85,11 +102,27 @@
             id:uc_vid2_button
             size_hint:(0.2, 0.05)
             text:"Második videó tallózás"
-            pos:(525, 350)
+            pos:(525, 370)
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid2_fileselect"
+        Slider:
+            id:uc_vid2_slider
+            orientation:"horizontal"
+            size_hint:0.2,0.5
+            pos_hint:{"center_x":0.85,"center_y":0.55}
+            step:0.1
+            min:0
+            max:10
+            value:0
+        Label:
+            text:str(uc_vid2_slider.value)
+            size_hint: 0.1, 0.1
+            font_size: 30
+            color:0.0, 0.0, 0.0
+            pos_hint:{"center_x":0.65,"center_y":0.55}
+
         Video:
             id: uc_vid3
             visible: False
@@ -105,11 +138,26 @@
             id:uc_vid3_button
             size_hint:(0.2, 0.05)
             text:"Harmadik videó tallózás"
-            pos:(100, 70)
+            pos:(100, 90)
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid3_fileselect"
+        Slider:
+            id:uc_vid3_slider
+            orientation:"horizontal"
+            size_hint:0.2,0.5
+            pos_hint:{"center_x":0.25,"center_y":0.05}
+            step:0.1
+            min:0
+            max:10
+            value:0
+        Label:
+            text:str(uc_vid3_slider.value)
+            size_hint: 0.1, 0.1
+            font_size: 30
+            color:0.0, 0.0, 0.0
+            pos_hint:{"center_x":0.4,"center_y":0.05}
         Video:
             id: uc_vid4
             visible: False
@@ -125,32 +173,41 @@
             id:uc_vid4_button
             size_hint:(0.2, 0.05)
             text:"Negyedik videó tallózás"
-            pos:(525, 70)
+            pos:(525, 90)
             on_press:
                 root.manager.transition.direction = "right"
                 root.manager.transition.duration = 1
                 root.manager.current = "vid4_fileselect"
+        Slider:
+            id:uc_vid4_slider
+            orientation:"horizontal"
+            size_hint:0.2,0.5
+            pos_hint:{"center_x":0.85,"center_y":0.05}
+            step:0.1
+            min:0
+            max:10
+            value:0
+        Label:
+            text:str(uc_vid4_slider.value)
+            size_hint: 0.1, 0.1
+            font_size: 30
+            color:0.0, 0.0, 0.0
+            pos_hint:{"center_x":0.65,"center_y":0.05}
         Button:
             text: "Play My Collage!"
-            pos: (308, 300)
+            pos: (308, 313)
             size_hint_x: 0.2
             size_hint_y: 0.1
             background_color: 0.2, 0.9, 0.4, 1
             on_press:
-                setattr(uc_vid1,'state','play')
-                setattr(uc_vid1,'visible',True)
-                setattr(uc_vid2,'state','play')
-                setattr(uc_vid2,'visible',True)
-                setattr(uc_vid3,'state','play')
-                setattr(uc_vid3,'visible',True)
-                setattr(uc_vid4,'state','play')
-                setattr(uc_vid4,'visible',True)
-                #Clock.schedule_once(lambda dt: setattr(uc_vid1,'state','play'),v1_slider.value)
-                #Clock.schedule_once(lambda dt: setattr(uc_vid2,'state','play'),v2_slider.value)
-                #Clock.schedule_once(lambda dt: setattr(uc_vid3,'state','play'),v3_slider.value)
-                #Clock.schedule_once(lambda dt: setattr(uc_vid4,'state','play'),v4_slider.value)
-        BoxLayout:
-            orientation:'horizontal'
+                Clock.schedule_once(lambda dt: setattr(uc_vid1,'state','play'),uc_vid1_slider.value)
+                Clock.schedule_once(lambda dt: setattr(uc_vid1,'visible',True),uc_vid1_slider.value)
+                Clock.schedule_once(lambda dt: setattr(uc_vid2,'state','play'),uc_vid2_slider.value)
+                Clock.schedule_once(lambda dt: setattr(uc_vid2,'visible',True),uc_vid2_slider.value)
+                Clock.schedule_once(lambda dt: setattr(uc_vid3,'state','play'),uc_vid3_slider.value)
+                Clock.schedule_once(lambda dt: setattr(uc_vid3,'visible',True),uc_vid3_slider.value)
+                Clock.schedule_once(lambda dt: setattr(uc_vid4,'state','play'),uc_vid4_slider.value)
+                Clock.schedule_once(lambda dt: setattr(uc_vid4,'visible',True),uc_vid4_slider.value)
             Button:
                 text:"Back"
                 pos_hint:{'x': 0, 'y': 0}
@@ -160,13 +217,7 @@
                     root.manager.transition.direction = "right"
                     root.manager.transition.duration = 1
                     root.manager.current = "main_menu"
-            Button:
-                text:"Tovább a kollázsomhoz"
-                size_hint:(0.1, 0.1)
-                on_press:
-                    root.manager.transition.direction = "right"
-                    root.manager.transition.duration = 1
-                    root.manager.current = "my_collage"
+
 <Demo>
     FloatLayout:
         size: (300, 300)
@@ -196,7 +247,7 @@
             text:str(v1_slider.value)
             size_hint: 0.1, 0.1
             font_size: 30
-            color:0.0, 0.0, 1.0
+            color:0.0, 0.0, 0.0
             pos_hint:{"center_x":0.3,"center_y":0.5}
 
         Video:
