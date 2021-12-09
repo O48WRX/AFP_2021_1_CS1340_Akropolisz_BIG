@@ -42,7 +42,14 @@ A rendszerhez mindössze egy .exe állomány futtatására van szükség, valami
 
 ## 8. Tesztterv
 
-A fejlesztés során szükséges a folytonos tesztelés, amellyel a felmerülő hibákat ki tudjuk küszöbölni. Ellenőrizni kell a gombok megfelelő működését, a videók tallózását valamint a kollázs készítését, hogy az igények szerint alakul-e. TODO: Tesztek
+A fejlesztés során szükséges a folytonos tesztelés, amellyel a felmerülő hibákat ki tudjuk küszöbölni. Ellenőrizni kell a gombok megfelelő működését, a videók tallózását valamint a kollázs készítését, hogy az igények szerint alakul-e.
+A szükséges tesztek:
+- Logikai teszt
+- Függvény tesztek
+- Videóbeolvasási és lejátszási tesztek
+- A szinkronizálás tesztje
+- Crash Course tesztek
+- Megjelenési tesztek
 
 ## 9. Telepítési terv
 
